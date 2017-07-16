@@ -67,6 +67,7 @@ RCT_EXPORT_MODULE();
              @"MainBundleDir" : [RNFetchBlobFS getMainBundleDir],
              @"DocumentDir": [RNFetchBlobFS getDocumentDir],
              @"CacheDir" : [RNFetchBlobFS getCacheDir]
+             @"LibraryDir": [self getPathForDirectory:NSLibraryDirectory],
              };
 }
 
